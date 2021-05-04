@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Dec 18 14:07:12 2020
+# Process ID: 96
+# Current directory: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25364 G:\document\semester4\ComputerOrganizationDesign\CPU54\multicycleCPU54\multicycleCPU54.xpr
+# Log file: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/vivado.log
+# Journal file: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.xpr
+update_compile_order -fileset sources_1
+launch_simulation -install_path D:/ModelSim/win32pe

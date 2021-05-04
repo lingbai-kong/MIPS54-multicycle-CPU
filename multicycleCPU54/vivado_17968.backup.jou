@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Nov 04 21:45:16 2020
+# Process ID: 17968
+# Current directory: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19500 G:\document\semester4\ComputerOrganizationDesign\CPU54\multicycleCPU54\multicycleCPU54.xpr
+# Log file: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/vivado.log
+# Journal file: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.xpr
+update_compile_order -fileset sources_1
+launch_simulation -install_path D:/ModelSim/win32pe
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_with_ipcore [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]

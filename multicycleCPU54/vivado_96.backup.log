@@ -1,0 +1,130 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Dec 18 14:07:12 2020
+# Process ID: 96
+# Current directory: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25364 G:\document\semester4\ComputerOrganizationDesign\CPU54\multicycleCPU54\multicycleCPU54.xpr
+# Log file: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/vivado.log
+# Journal file: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 840.203 ; gain = 130.598
+update_compile_order -fileset sources_1
+launch_simulation -install_path D:/ModelSim/win32pe
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-50] Using simulator executables from 'D:/ModelSim/win32pe/vsim.exe'
+INFO: [USF-ModelSim-30] Simulation object is 'sim_1'...
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'D:/xilinx_sim_lib/modelsim.ini' copied to run dir:'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav'
+INFO: [USF-ModelSim-40] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-ModelSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/IMEM.mif'
+INFO: [USF-ModelSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/CP0test.coe'
+INFO: [USF-ModelSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/DMEM.mif'
+INFO: [USF-ModelSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/DMEM.coe'
+INFO: [USF-ModelSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe'
+INFO: [USF-ModelSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/mips_54_mars_board_switch_student.coe'
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav'
+Reading D:/ModelSim/tcl/vsim/pref.tcl
+
+# 10.4c
+
+# do {test_compile.do}
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 14:07:49 on Dec 18,2020
+# vlog -64 -incr -work xil_defaultlib ../../../multicycleCPU54.srcs/sources_1/new/Asynchronous_D_FF.v ../../../multicycleCPU54.srcs/sources_1/new/ADD.v ../../../multicycleCPU54.srcs/sources_1/new/SRL.v ../../../multicycleCPU54.srcs/sources_1/new/SLLSLR.v ../../../multicycleCPU54.srcs/sources_1/new/SUBU.v ../../../multicycleCPU54.srcs/sources_1/new/LUI.v ../../../multicycleCPU54.srcs/sources_1/new/SRA.v ../../../multicycleCPU54.srcs/sources_1/new/NOR.v ../../../multicycleCPU54.srcs/sources_1/new/XOR.v ../../../multicycleCPU54.srcs/sources_1/new/complement.v ../../../multicycleCPU54.srcs/sources_1/new/AND.v ../../../multicycleCPU54.srcs/sources_1/new/pcreg.v ../../../multicycleCPU54.srcs/sources_1/new/SLTU.v ../../../multicycleCPU54.srcs/sources_1/new/SUB.v ../../../multicycleCPU54.srcs/sources_1/new/OR.v ../../../multicycleCPU54.srcs/sources_1/new/selector.v ../../../multicycleCPU54.srcs/sources_1/new/ADDU.v ../../../multicycleCPU54.srcs/sources_1/new/divu.v ../../../multicycleCPU54.srcs/sources_1/new/SLT.v ../../../multicycleCPU54.srcs/sources_1/new/multu.v ../../../multicycleCPU54.srcs/sources_1/new/alu.v ../../../multicycleCPU54.srcs/sources_1/new/div.v ../../../multicycleCPU54.srcs/sources_1/new/npc.v ../../../multicycleCPU54.srcs/sources_1/new/mux.v ../../../multicycleCPU54.srcs/sources_1/new/regfile.v ../../../multicycleCPU54.srcs/sources_1/new/mult.v ../../../multicycleCPU54.srcs/sources_1/new/clz.v ../../../multicycleCPU54.srcs/sources_1/new/save.v ../../../multicycleCPU54.srcs/sources_1/new/cu.v ../../../multicycleCPU54.srcs/sources_1/new/extend.v ../../../multicycleCPU54.srcs/sources_1/new/cp0.v ../../../multicycleCPU54.srcs/sources_1/new/z.v ../../../multicycleCPU54.srcs/sources_1/new/II.v ../../../multicycleCPU54.srcs/sources_1/new/cpmem.v ../../../multicycleCPU54.srcs/sources_1/new/decoder.v ../../../multicycleCPU54.srcs/sources_1/new/memory.v ../../../multicycleCPU54.srcs/sources_1/new/cpu.v ../../../multicycleCPU54.srcs/sources_1/new/sccomp_dataflow.v ../../../multicycleCPU54.srcs/sim_1/new/cpu_tb.v 
+# 
+# -- Compiling module Ansynchronous
+# -- Compiling module Ansynchronous1
+# -- Compiling module ADD
+# -- Compiling module SRL
+# -- Compiling module SLLSLR
+# -- Compiling module SUBU
+# -- Compiling module LUI
+# -- Compiling module SRA
+# -- Compiling module NOR
+# -- Compiling module XOR
+# -- Compiling module complement32
+# -- Compiling module complement64
+# -- Compiling module AND
+# -- Compiling module pcreg
+# -- Compiling module pcreg_i
+# -- Compiling module SLTU
+# -- Compiling module SUB
+# -- Compiling module OR
+# -- Compiling module alu_selector
+# -- Compiling module ADDU
+# -- Compiling module divu
+# -- Compiling module SLT
+# -- Compiling module multu
+# -- Compiling module alu
+# -- Compiling module div
+# -- Compiling module npc
+# -- Compiling module mux_pc
+# -- Compiling module mux_rf
+# -- Compiling module mux_alu
+# -- Compiling module mux_hi
+# -- Compiling module mux_lo
+# -- Compiling module mux2_32
+# -- Compiling module regfile
+# -- Compiling module mult
+# -- Compiling module clz
+# -- Compiling module save
+# -- Compiling module save_flag
+# -- Compiling module cu
+# -- Compiling module extend1
+# -- Compiling module extend5
+# -- Compiling module extend8
+# -- Compiling module extend16
+# -- Compiling module extend18
+# -- Compiling module cp0
+# -- Compiling module z
+# -- Compiling module ii
+# -- Compiling module cpmem
+# -- Compiling module decoder
+# -- Compiling module memory
+# -- Compiling module cpu
+# -- Compiling module sccomp_dataflow
+# -- Compiling module sccomp_dataflow_with_ipcore
+# -- Compiling module test
+# -- Compiling module test_with_ipcore
+# 
+# Top level modules:
+# 	test
+# 	test_with_ipcore
+# End time: 14:07:49 on Dec 18,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 14:07:50 on Dec 18,2020
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 14:07:50 on Dec 18,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 840.203 ; gain = 0.000
+INFO: [USF-ModelSim-69] 'compile' step finished in '13' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav'
+Program launched (PID=2476)
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 840.203 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 18 14:09:09 2020...

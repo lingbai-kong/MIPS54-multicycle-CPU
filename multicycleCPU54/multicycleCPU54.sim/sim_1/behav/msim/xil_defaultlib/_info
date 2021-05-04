@@ -1,0 +1,1126 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav
+vADD
+Z1 !s110 1608287312
+!i10b 1
+!s100 Nl=n2G4gP>G>lCM[N_dc22
+I[VV4VSU^TMUA:DWAcC17e1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1594385709
+8../../../multicycleCPU54.srcs/sources_1/new/ADD.v
+F../../../multicycleCPU54.srcs/sources_1/new/ADD.v
+L0 2
+Z3 OP;L;10.4c;61
+r1
+!s85 0
+31
+Z4 !s108 1608287312.000000
+Z5 !s107 ../../../multicycleCPU54.srcs/sim_1/new/cpu_tb.v|../../../multicycleCPU54.srcs/sources_1/new/sccomp_dataflow.v|../../../multicycleCPU54.srcs/sources_1/new/cpu.v|../../../multicycleCPU54.srcs/sources_1/new/memory.v|../../../multicycleCPU54.srcs/sources_1/new/decoder.v|../../../multicycleCPU54.srcs/sources_1/new/cpmem.v|../../../multicycleCPU54.srcs/sources_1/new/II.v|../../../multicycleCPU54.srcs/sources_1/new/z.v|../../../multicycleCPU54.srcs/sources_1/new/cp0.v|../../../multicycleCPU54.srcs/sources_1/new/extend.v|../../../multicycleCPU54.srcs/sources_1/new/cu.v|../../../multicycleCPU54.srcs/sources_1/new/save.v|../../../multicycleCPU54.srcs/sources_1/new/clz.v|../../../multicycleCPU54.srcs/sources_1/new/mult.v|../../../multicycleCPU54.srcs/sources_1/new/regfile.v|../../../multicycleCPU54.srcs/sources_1/new/mux.v|../../../multicycleCPU54.srcs/sources_1/new/npc.v|../../../multicycleCPU54.srcs/sources_1/new/div.v|../../../multicycleCPU54.srcs/sources_1/new/alu.v|../../../multicycleCPU54.srcs/sources_1/new/multu.v|../../../multicycleCPU54.srcs/sources_1/new/SLT.v|../../../multicycleCPU54.srcs/sources_1/new/divu.v|../../../multicycleCPU54.srcs/sources_1/new/ADDU.v|../../../multicycleCPU54.srcs/sources_1/new/selector.v|../../../multicycleCPU54.srcs/sources_1/new/OR.v|../../../multicycleCPU54.srcs/sources_1/new/SUB.v|../../../multicycleCPU54.srcs/sources_1/new/SLTU.v|../../../multicycleCPU54.srcs/sources_1/new/pcreg.v|../../../multicycleCPU54.srcs/sources_1/new/AND.v|../../../multicycleCPU54.srcs/sources_1/new/complement.v|../../../multicycleCPU54.srcs/sources_1/new/XOR.v|../../../multicycleCPU54.srcs/sources_1/new/NOR.v|../../../multicycleCPU54.srcs/sources_1/new/SRA.v|../../../multicycleCPU54.srcs/sources_1/new/LUI.v|../../../multicycleCPU54.srcs/sources_1/new/SUBU.v|../../../multicycleCPU54.srcs/sources_1/new/SLLSLR.v|../../../multicycleCPU54.srcs/sources_1/new/SRL.v|../../../multicycleCPU54.srcs/sources_1/new/ADD.v|../../../multicycleCPU54.srcs/sources_1/new/Asynchronous_D_FF.v|
+Z6 !s90 -64|-incr|-work|xil_defaultlib|../../../multicycleCPU54.srcs/sources_1/new/Asynchronous_D_FF.v|../../../multicycleCPU54.srcs/sources_1/new/ADD.v|../../../multicycleCPU54.srcs/sources_1/new/SRL.v|../../../multicycleCPU54.srcs/sources_1/new/SLLSLR.v|../../../multicycleCPU54.srcs/sources_1/new/SUBU.v|../../../multicycleCPU54.srcs/sources_1/new/LUI.v|../../../multicycleCPU54.srcs/sources_1/new/SRA.v|../../../multicycleCPU54.srcs/sources_1/new/NOR.v|../../../multicycleCPU54.srcs/sources_1/new/XOR.v|../../../multicycleCPU54.srcs/sources_1/new/complement.v|../../../multicycleCPU54.srcs/sources_1/new/AND.v|../../../multicycleCPU54.srcs/sources_1/new/pcreg.v|../../../multicycleCPU54.srcs/sources_1/new/SLTU.v|../../../multicycleCPU54.srcs/sources_1/new/SUB.v|../../../multicycleCPU54.srcs/sources_1/new/OR.v|../../../multicycleCPU54.srcs/sources_1/new/selector.v|../../../multicycleCPU54.srcs/sources_1/new/ADDU.v|../../../multicycleCPU54.srcs/sources_1/new/divu.v|../../../multicycleCPU54.srcs/sources_1/new/SLT.v|../../../multicycleCPU54.srcs/sources_1/new/multu.v|../../../multicycleCPU54.srcs/sources_1/new/alu.v|../../../multicycleCPU54.srcs/sources_1/new/div.v|../../../multicycleCPU54.srcs/sources_1/new/npc.v|../../../multicycleCPU54.srcs/sources_1/new/mux.v|../../../multicycleCPU54.srcs/sources_1/new/regfile.v|../../../multicycleCPU54.srcs/sources_1/new/mult.v|../../../multicycleCPU54.srcs/sources_1/new/clz.v|../../../multicycleCPU54.srcs/sources_1/new/save.v|../../../multicycleCPU54.srcs/sources_1/new/cu.v|../../../multicycleCPU54.srcs/sources_1/new/extend.v|../../../multicycleCPU54.srcs/sources_1/new/cp0.v|../../../multicycleCPU54.srcs/sources_1/new/z.v|../../../multicycleCPU54.srcs/sources_1/new/II.v|../../../multicycleCPU54.srcs/sources_1/new/cpmem.v|../../../multicycleCPU54.srcs/sources_1/new/decoder.v|../../../multicycleCPU54.srcs/sources_1/new/memory.v|../../../multicycleCPU54.srcs/sources_1/new/cpu.v|../../../multicycleCPU54.srcs/sources_1/new/sccomp_dataflow.v|../../../multicycleCPU54.srcs/sim_1/new/cpu_tb.v|
+!i113 1
+Z7 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@a@d@d
+vADDU
+R1
+!i10b 1
+!s100 OMGm14ekl@>DKS=ZY:19A0
+Ih1ASh^8:3k<]eRJfn<7?E3
+R2
+R0
+w1594385697
+8../../../multicycleCPU54.srcs/sources_1/new/ADDU.v
+F../../../multicycleCPU54.srcs/sources_1/new/ADDU.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@a@d@d@u
+valu
+R1
+!i10b 1
+!s100 `Xj9U^=?`LWMO599h6]=X1
+I;0RWlbklbAh[@akT^J9kE1
+R2
+R0
+w1593101575
+8../../../multicycleCPU54.srcs/sources_1/new/alu.v
+F../../../multicycleCPU54.srcs/sources_1/new/alu.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+valu_selector
+R1
+!i10b 1
+!s100 aH@3JE3n0GL3?2Qd>PVg@0
+IOSgi[DBK;5RW1<EzKGiF`0
+R2
+R0
+w1594385757
+8../../../multicycleCPU54.srcs/sources_1/new/selector.v
+F../../../multicycleCPU54.srcs/sources_1/new/selector.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vAND
+R1
+!i10b 1
+!s100 g2?F7KB^iMVFSK:L^SLhb0
+Iz;f0J75zG?:gTobdOQLiB1
+R2
+R0
+w1594385727
+8../../../multicycleCPU54.srcs/sources_1/new/AND.v
+F../../../multicycleCPU54.srcs/sources_1/new/AND.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@a@n@d
+vAnsynchronous
+R1
+!i10b 1
+!s100 25i>7Gif`]W=6E@4:A@^X1
+IT]7D2NQ`aT`zEW^XjA6DZ1
+R2
+R0
+Z8 w1593098730
+Z9 8../../../multicycleCPU54.srcs/sources_1/new/Asynchronous_D_FF.v
+Z10 F../../../multicycleCPU54.srcs/sources_1/new/Asynchronous_D_FF.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@ansynchronous
+vAnsynchronous1
+R1
+!i10b 1
+!s100 dofICn]Incee_G39WP[=H2
+IBOW3_LhDjNAdH:M1PK0K<3
+R2
+R0
+R8
+R9
+R10
+Z11 L0 24
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@ansynchronous1
+vclz
+R1
+!i10b 1
+!s100 81eg6l49`an`D4NN4[Ye63
+I[_HNH33]4?TA^F0zlKPOF0
+R2
+R0
+w1597366926
+8../../../multicycleCPU54.srcs/sources_1/new/clz.v
+F../../../multicycleCPU54.srcs/sources_1/new/clz.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vcomplement32
+R1
+!i10b 1
+!s100 U^2MF3lFGeo4I:8kbLY1M0
+IJKngC>>lR9^dhce6bfhQ=1
+R2
+R0
+Z12 w1597372381
+Z13 8../../../multicycleCPU54.srcs/sources_1/new/complement.v
+Z14 F../../../multicycleCPU54.srcs/sources_1/new/complement.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vcomplement64
+R1
+!i10b 1
+!s100 T]G27mKMWS<7g@kJ0lDEU2
+IV7]NGeWCI8oN_mzchJnNd2
+R2
+R0
+R12
+R13
+R14
+Z15 L0 10
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vcp0
+R1
+!i10b 1
+!s100 9NX3K2HXj`UN<M<H;dTGK0
+IH9<IWWBAOm9I1]`MM:VR83
+R2
+R0
+w1597568840
+8../../../multicycleCPU54.srcs/sources_1/new/cp0.v
+F../../../multicycleCPU54.srcs/sources_1/new/cp0.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vcpmem
+R1
+!i10b 1
+!s100 cdL;G[9oGOBR2?EE<io4@2
+IY>@>L<akIh6dMIj3@82UN1
+R2
+R0
+w1597583527
+8../../../multicycleCPU54.srcs/sources_1/new/cpmem.v
+F../../../multicycleCPU54.srcs/sources_1/new/cpmem.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vcpu
+R1
+!i10b 1
+!s100 11Ck6ULingRWFO1D9kR`f0
+IHnSJN_`cFFC1oH5?Ib8bM3
+R2
+R0
+w1597594544
+8../../../multicycleCPU54.srcs/sources_1/new/cpu.v
+F../../../multicycleCPU54.srcs/sources_1/new/cpu.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vcu
+R1
+!i10b 1
+!s100 Y^6BCMIOIRzk^G89j1U>U0
+I0DJ]I6549jX<eaQ[S2?UZ2
+R2
+R0
+w1597743104
+8../../../multicycleCPU54.srcs/sources_1/new/cu.v
+F../../../multicycleCPU54.srcs/sources_1/new/cu.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vdecoder
+R1
+!i10b 1
+!s100 O]N@LJfnJR?9]h`de^^L81
+IC<Yzlzb]MIiVJT1XLo:`m2
+R2
+R0
+w1597585998
+8../../../multicycleCPU54.srcs/sources_1/new/decoder.v
+F../../../multicycleCPU54.srcs/sources_1/new/decoder.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vdiv
+R1
+!i10b 1
+!s100 _@aKa7ceC<Q;gjKVIHOR]3
+IMm:zWQFjLW[el0;e]h8Al3
+R2
+R0
+w1597372317
+8../../../multicycleCPU54.srcs/sources_1/new/div.v
+F../../../multicycleCPU54.srcs/sources_1/new/div.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vdivu
+R1
+!i10b 1
+!s100 Z_BR??HEXD_<b@JjUPg>50
+IBHMB1jI9TU2R<CkQK82k:3
+R2
+R0
+w1597372305
+8../../../multicycleCPU54.srcs/sources_1/new/divu.v
+F../../../multicycleCPU54.srcs/sources_1/new/divu.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vextend1
+R1
+!i10b 1
+!s100 1?b[o60^6UKK7:3;naW8B2
+IhNZY8A2fHRm>^kRUk]8Z81
+R2
+R0
+Z16 w1597407785
+Z17 8../../../multicycleCPU54.srcs/sources_1/new/extend.v
+Z18 F../../../multicycleCPU54.srcs/sources_1/new/extend.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vextend16
+R1
+!i10b 1
+!s100 <oCM3;>JDT9Y2FTDMNQP50
+I_O<0CAggHNN_gIlMhPlo42
+R2
+R0
+R16
+R17
+R18
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vextend18
+R1
+!i10b 1
+!s100 R^WcX65_]FKXj:Q4[>JkV0
+I2@F@QnHY:LTljS8oLcf`K0
+R2
+R0
+R16
+R17
+R18
+L0 28
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vextend5
+R1
+!i10b 1
+!s100 WFd_nTBXT3AnBU8bXR>NS3
+IlR>IOfJEBGaMQf=1jdJWF1
+R2
+R0
+R16
+R17
+R18
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vextend8
+R1
+!i10b 1
+!s100 jGY@XiP6228h=H;UVdLk[2
+I0geZi6<0PF7>S0<Kj>jL30
+R2
+R0
+R16
+R17
+R18
+L0 14
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vglbl
+!s110 1608287313
+!i10b 1
+!s100 g=dL3UKAkhNRkQ:7=fPzF1
+IkJ@CGO[n5[_3E=ZkTzmEk2
+R2
+R0
+w1464879896
+8glbl.v
+Fglbl.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1608287313.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 1
+R7
+vii
+R1
+!i10b 1
+!s100 [Sl=LG=WV0j<zTd<aTXCg3
+IdaI]VPGZegk52G2KK6K5=2
+R2
+R0
+w1597586119
+8../../../multicycleCPU54.srcs/sources_1/new/II.v
+F../../../multicycleCPU54.srcs/sources_1/new/II.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vLUI
+R1
+!i10b 1
+!s100 A^GDzKH>mTLGjh0z`:[1[2
+ITb1YNaEWT<em:nZDaXbjj1
+R2
+R0
+w1594385784
+8../../../multicycleCPU54.srcs/sources_1/new/LUI.v
+F../../../multicycleCPU54.srcs/sources_1/new/LUI.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@l@u@i
+vmemory
+R1
+!i10b 1
+!s100 _PBLWAZ0ZE<<O2DVQ@_k21
+IEGhH70LD=NlNH2NH@_VKo0
+R2
+R0
+w1597593387
+8../../../multicycleCPU54.srcs/sources_1/new/memory.v
+F../../../multicycleCPU54.srcs/sources_1/new/memory.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vmult
+R1
+!i10b 1
+!s100 hD_llW@:<d84J5DjaQNDW1
+IiG@gG6IV`@kYTaNIcmK5_3
+R2
+R0
+w1597680347
+8../../../multicycleCPU54.srcs/sources_1/new/mult.v
+F../../../multicycleCPU54.srcs/sources_1/new/mult.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vmultu
+R1
+!i10b 1
+!s100 I]zCL]VL:9>A2:=OUIkZ_0
+ISz^Ea62oz<18S7mi?BR`>3
+R2
+R0
+w1597415603
+8../../../multicycleCPU54.srcs/sources_1/new/multu.v
+F../../../multicycleCPU54.srcs/sources_1/new/multu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vmux2_32
+R1
+!i10b 1
+!s100 3A[^6iJ^nBHlPT8?V?icj1
+I@EY[0k>YYGmm>M1P?59HG2
+R2
+R0
+Z19 w1597461612
+Z20 8../../../multicycleCPU54.srcs/sources_1/new/mux.v
+Z21 F../../../multicycleCPU54.srcs/sources_1/new/mux.v
+L0 125
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vmux_alu
+R1
+!i10b 1
+!s100 i4486FOB4F>ZzJZlfmznZ2
+I928>`ojL1nha?4n=gJAzM3
+R2
+R0
+R19
+R20
+R21
+L0 56
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vmux_hi
+R1
+!i10b 1
+!s100 _GCQ^XEKdd=l:2;RQicz`3
+I2WfbNKAdB:[7V4Vk2iZ1N0
+R2
+R0
+R19
+R20
+R21
+L0 81
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vmux_lo
+R1
+!i10b 1
+!s100 1JI1APO?3<UMV`CgzO38V3
+I`I5h^kOVUi?VI]HMk;a1J2
+R2
+R0
+R19
+R20
+R21
+L0 103
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vmux_pc
+R1
+!i10b 1
+!s100 =WjLUfTe9k8`V7EN_moBG3
+IT?aoMGkO7@bi>QigN@5Ko2
+R2
+R0
+R19
+R20
+R21
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vmux_rf
+R1
+!i10b 1
+!s100 j@3ZN740TXeojE[?AMmGB3
+IC1gXc[Qm1>Nd=4eNULBCI1
+R2
+R0
+R19
+R20
+R21
+R11
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vNOR
+R1
+!i10b 1
+!s100 EcNNBI_7:Tl5CY<R[FJTQ1
+I5NFHTmZTWn3`FAznOWDdb1
+R2
+R0
+w1594385790
+8../../../multicycleCPU54.srcs/sources_1/new/NOR.v
+F../../../multicycleCPU54.srcs/sources_1/new/NOR.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@n@o@r
+vnpc
+R1
+!i10b 1
+!s100 gOmLQV6cz8giKMEkiRHJM3
+I25Wh_RN?ZU7ilBe=MJ9>E2
+R2
+R0
+w1593100871
+8../../../multicycleCPU54.srcs/sources_1/new/npc.v
+F../../../multicycleCPU54.srcs/sources_1/new/npc.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vOR
+R1
+!i10b 1
+!s100 E]SRZiTWBPaE2g>1L1KDK3
+IW;d<zn?n2]QNHYL^heUJU3
+R2
+R0
+w1594385736
+8../../../multicycleCPU54.srcs/sources_1/new/OR.v
+F../../../multicycleCPU54.srcs/sources_1/new/OR.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@o@r
+vpcreg
+R1
+!i10b 1
+!s100 l3mW1R1QmPamEYA`nL3;:0
+IRgjV0dilN3o^O@6FO4[FM0
+R2
+R0
+Z22 w1597116257
+Z23 8../../../multicycleCPU54.srcs/sources_1/new/pcreg.v
+Z24 F../../../multicycleCPU54.srcs/sources_1/new/pcreg.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vpcreg_i
+R1
+!i10b 1
+!s100 AR3@i[ES^XVM35]oQD06g1
+I@K158R8jSn[<UdKEbiX360
+R2
+R0
+R22
+R23
+R24
+L0 43
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vregfile
+R1
+!i10b 1
+!s100 NQaDRE7<JI@BTiz;_h4?I2
+Ig0R7VJL`m4km6la6E1oHb1
+R2
+R0
+w1597116292
+8../../../multicycleCPU54.srcs/sources_1/new/regfile.v
+F../../../multicycleCPU54.srcs/sources_1/new/regfile.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsave
+R1
+!i10b 1
+!s100 MkfoXQXjXXPm1igJljTHG2
+Ia:cCO=JPAdoof151ia@5c0
+R2
+R0
+Z25 w1597573855
+Z26 8../../../multicycleCPU54.srcs/sources_1/new/save.v
+Z27 F../../../multicycleCPU54.srcs/sources_1/new/save.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsave_flag
+R1
+!i10b 1
+!s100 Yd=WI9<gDlH`CbdiIA]WA3
+Ih<[IzBXdMFL6F>_aN;Cdd0
+R2
+R0
+R25
+R26
+R27
+R15
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsccomp_dataflow
+R1
+!i10b 1
+!s100 [4kg;=2B>zJE4``Mjii:<0
+IM=[Ec9RmShf>AEQj;HF@C1
+R2
+R0
+Z28 w1597679825
+Z29 8../../../multicycleCPU54.srcs/sources_1/new/sccomp_dataflow.v
+Z30 F../../../multicycleCPU54.srcs/sources_1/new/sccomp_dataflow.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsccomp_dataflow_with_ipcore
+R1
+!i10b 1
+!s100 T`M@T86YTN9AZ<GNTz>l@3
+I@E0Ui==f^3hz@hF6A6>Xj0
+R2
+R0
+R28
+R29
+R30
+R11
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vSLLSLR
+R1
+!i10b 1
+!s100 C1C82GOmIOQfSakRBV>d]1
+IKNJ;Q3O2?m_OKaZ3BgLID2
+R2
+R0
+w1594385766
+8../../../multicycleCPU54.srcs/sources_1/new/SLLSLR.v
+F../../../multicycleCPU54.srcs/sources_1/new/SLLSLR.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@s@l@l@s@l@r
+vSLT
+R1
+!i10b 1
+!s100 W@J:d]]:CY`0i:eDT8V693
+IKD6Jb@Xe?e=lIQ@lP:3lU2
+R2
+R0
+w1594385780
+8../../../multicycleCPU54.srcs/sources_1/new/SLT.v
+F../../../multicycleCPU54.srcs/sources_1/new/SLT.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@s@l@t
+vSLTU
+R1
+!i10b 1
+!s100 aXN]7@@VZY4@;;P<WVNW43
+Ic3lD89L`ozgZmFke;0FFZ3
+R2
+R0
+w1594385775
+8../../../multicycleCPU54.srcs/sources_1/new/SLTU.v
+F../../../multicycleCPU54.srcs/sources_1/new/SLTU.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@s@l@t@u
+vSRA
+R1
+!i10b 1
+!s100 2@dmlm^=PJTnQFZ1HRde@2
+IVB7D57nTF14=^e<C2d57U0
+R2
+R0
+w1594385771
+8../../../multicycleCPU54.srcs/sources_1/new/SRA.v
+F../../../multicycleCPU54.srcs/sources_1/new/SRA.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@s@r@a
+vSRL
+R1
+!i10b 1
+!s100 @Ro[A]RdFa6WTBRZ_8A2Y1
+IE0zDYU_3_UX]OFODPFhSL1
+R2
+R0
+w1594385762
+8../../../multicycleCPU54.srcs/sources_1/new/SRL.v
+F../../../multicycleCPU54.srcs/sources_1/new/SRL.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@s@r@l
+vSUB
+R1
+!i10b 1
+!s100 _5DCDoQ6_P<CNEDo:oPki1
+Id?zZa]M0zk:PFL1HEE9DE3
+R2
+R0
+w1597594497
+8../../../multicycleCPU54.srcs/sources_1/new/SUB.v
+F../../../multicycleCPU54.srcs/sources_1/new/SUB.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@s@u@b
+vSUBU
+R1
+!i10b 1
+!s100 T?oICeSBL;A@3fCZXQ7Yb3
+IEl_50F4U2QNfH6iRFN0FC3
+R2
+R0
+w1594385717
+8../../../multicycleCPU54.srcs/sources_1/new/SUBU.v
+F../../../multicycleCPU54.srcs/sources_1/new/SUBU.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@s@u@b@u
+vtest
+R1
+!i10b 1
+!s100 nnaAB:2n5ahdNieom]DNY3
+I1mE9PkmWTJ3QWYGDJYE8X3
+R2
+R0
+Z31 w1597854374
+Z32 8../../../multicycleCPU54.srcs/sim_1/new/cpu_tb.v
+Z33 F../../../multicycleCPU54.srcs/sim_1/new/cpu_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtest_with_ipcore
+R1
+!i10b 1
+!s100 baEl5LNZ>bjSV4bP^kSLP1
+IKC8ERYV6HPFozfV]nK7X82
+R2
+R0
+R31
+R32
+R33
+L0 77
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vXOR
+R1
+!i10b 1
+!s100 Ye_DU_D1AlaPlORQUaRgS0
+IfNgfhZ?bQF6jeU2SWO5SL1
+R2
+R0
+w1594385796
+8../../../multicycleCPU54.srcs/sources_1/new/XOR.v
+F../../../multicycleCPU54.srcs/sources_1/new/XOR.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@x@o@r
+vz
+R1
+!i10b 1
+!s100 =XmUeRPIJB>ieNUKbY4gT3
+Ih1llgXzG@`V6JY8XXSkKS3
+R2
+R0
+w1597222205
+8../../../multicycleCPU54.srcs/sources_1/new/z.v
+F../../../multicycleCPU54.srcs/sources_1/new/z.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

@@ -1,0 +1,77 @@
+# do {test_simulate.do}
+# vsim -voptargs=""+acc"" -L unisims_ver -L unimacro_ver -L secureip -L xil_defaultlib -lib xil_defaultlib xil_defaultlib.test xil_defaultlib.glbl 
+# Start time: 18:28:42 on Dec 18,2020
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading xil_defaultlib.test
+# Loading xil_defaultlib.sccomp_dataflow
+# Loading xil_defaultlib.cpu
+# Loading xil_defaultlib.cu
+# Loading xil_defaultlib.decoder
+# Loading xil_defaultlib.pcreg_i
+# Loading xil_defaultlib.Ansynchronous
+# Loading xil_defaultlib.Ansynchronous1
+# Loading xil_defaultlib.pcreg
+# Loading xil_defaultlib.save
+# Loading xil_defaultlib.alu
+# Loading xil_defaultlib.ADDU
+# Loading xil_defaultlib.ADD
+# Loading xil_defaultlib.SUBU
+# Loading xil_defaultlib.SUB
+# Loading xil_defaultlib.AND
+# Loading xil_defaultlib.OR
+# Loading xil_defaultlib.XOR
+# Loading xil_defaultlib.NOR
+# Loading xil_defaultlib.LUI
+# Loading xil_defaultlib.SLT
+# Loading xil_defaultlib.SLTU
+# Loading xil_defaultlib.SRA
+# Loading xil_defaultlib.SLLSLR
+# Loading xil_defaultlib.SRL
+# Loading xil_defaultlib.alu_selector
+# Loading xil_defaultlib.z
+# Loading xil_defaultlib.save_flag
+# Loading xil_defaultlib.regfile
+# Loading xil_defaultlib.div
+# Loading xil_defaultlib.complement32
+# Loading xil_defaultlib.divu
+# Loading xil_defaultlib.mult
+# Loading xil_defaultlib.multu
+# Loading xil_defaultlib.complement64
+# Loading xil_defaultlib.mux_pc
+# Loading xil_defaultlib.mux_rf
+# Loading xil_defaultlib.mux_alu
+# Loading xil_defaultlib.mux_hi
+# Loading xil_defaultlib.mux_lo
+# Loading xil_defaultlib.extend1
+# Loading xil_defaultlib.mux2_32
+# Loading xil_defaultlib.extend5
+# Loading xil_defaultlib.extend16
+# Loading xil_defaultlib.extend18
+# Loading xil_defaultlib.npc
+# Loading xil_defaultlib.ii
+# Loading xil_defaultlib.clz
+# Loading xil_defaultlib.extend8
+# Loading xil_defaultlib.cp0
+# Loading xil_defaultlib.cpmem
+# Loading xil_defaultlib.memory
+# Loading xil_defaultlib.glbl
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2049 of file "../../../../test/DMEM.txt". (Current address [2048], address range [0:2047])    : ../../../multicycleCPU54.srcs/sim_1/new/cpu_tb.v(19)
+#    Time: 0 ps  Iteration: 0  Instance: /test
+# End time: 23:19:48 on Dec 18,2020, Elapsed time: 4:51:06
+# Errors: 0, Warnings: 1

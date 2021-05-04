@@ -1,0 +1,238 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Dec 18 15:33:28 2020
+# Process ID: 11200
+# Current directory: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19304 G:\document\semester4\ComputerOrganizationDesign\CPU54\multicycleCPU54\multicycleCPU54.xpr
+# Log file: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/vivado.log
+# Journal file: G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 881.879 ; gain = 173.004
+update_compile_order -fileset sources_1
+set_property target_simulator XSim [current_project]
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/IMEM.mif'
+INFO: [USF-XSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/CP0test.coe'
+INFO: [USF-XSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/DMEM.mif'
+INFO: [USF-XSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/DMEM.coe'
+INFO: [USF-XSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe'
+INFO: [USF-XSim-25] Exported 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/mips_54_mars_board_switch_student.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/Asynchronous_D_FF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ansynchronous
+INFO: [VRFC 10-311] analyzing module Ansynchronous1
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/SRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/SLLSLR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SLLSLR
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/SUBU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUBU
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/LUI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LUI
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/SRA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SRA
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/NOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/complement.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complement32
+INFO: [VRFC 10-311] analyzing module complement64
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/pcreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcreg
+INFO: [VRFC 10-311] analyzing module pcreg_i
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/SLTU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SLTU
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/ADDU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADDU
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/divu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divu
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/SLT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SLT
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/multu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multu
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/npc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npc
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_pc
+INFO: [VRFC 10-311] analyzing module mux_rf
+INFO: [VRFC 10-311] analyzing module mux_alu
+INFO: [VRFC 10-311] analyzing module mux_hi
+INFO: [VRFC 10-311] analyzing module mux_lo
+INFO: [VRFC 10-311] analyzing module mux2_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/clz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clz
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/save.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module save
+INFO: [VRFC 10-311] analyzing module save_flag
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend1
+INFO: [VRFC 10-311] analyzing module extend5
+INFO: [VRFC 10-311] analyzing module extend8
+INFO: [VRFC 10-311] analyzing module extend16
+INFO: [VRFC 10-311] analyzing module extend18
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/cp0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cp0
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/z.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module z
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/II.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ii
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/cpmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2458] undeclared symbol base, assumed default net type wire [G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/decoder.v:18]
+INFO: [VRFC 10-2458] undeclared symbol offset, assumed default net type wire [G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/decoder.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2458] undeclared symbol IR_ENA, assumed default net type wire [G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/cpu.v:120]
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow_with_ipcore
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sim_1/new/cpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-311] analyzing module test_with_ipcore
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 395f6bb2b9d34c479b1ebe7786f79f9b --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/multu.v" Line 1. Module multu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/multu.v" Line 1. Module multu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/multu.v" Line 1. Module multu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.srcs/sources_1/new/multu.v" Line 1. Module multu doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.cu
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.Ansynchronous
+Compiling module xil_defaultlib.Ansynchronous1
+Compiling module xil_defaultlib.pcreg_i
+Compiling module xil_defaultlib.pcreg
+Compiling module xil_defaultlib.save
+Compiling module xil_defaultlib.ADDU
+Compiling module xil_defaultlib.ADD
+Compiling module xil_defaultlib.SUBU
+Compiling module xil_defaultlib.SUB
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.XOR
+Compiling module xil_defaultlib.NOR
+Compiling module xil_defaultlib.LUI
+Compiling module xil_defaultlib.SLT
+Compiling module xil_defaultlib.SLTU
+Compiling module xil_defaultlib.SRA
+Compiling module xil_defaultlib.SLLSLR
+Compiling module xil_defaultlib.SRL
+Compiling module xil_defaultlib.alu_selector
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.z
+Compiling module xil_defaultlib.save_flag
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.complement32
+Compiling module xil_defaultlib.divu
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.multu
+Compiling module xil_defaultlib.complement64
+Compiling module xil_defaultlib.mult
+Compiling module xil_defaultlib.mux_pc
+Compiling module xil_defaultlib.mux_rf
+Compiling module xil_defaultlib.mux_alu
+Compiling module xil_defaultlib.mux_hi
+Compiling module xil_defaultlib.mux_lo
+Compiling module xil_defaultlib.extend1
+Compiling module xil_defaultlib.mux2_32
+Compiling module xil_defaultlib.extend5
+Compiling module xil_defaultlib.extend16
+Compiling module xil_defaultlib.extend18
+Compiling module xil_defaultlib.npc
+Compiling module xil_defaultlib.ii
+Compiling module xil_defaultlib.clz
+Compiling module xil_defaultlib.extend8
+Compiling module xil_defaultlib.cp0
+Compiling module xil_defaultlib.cpmem
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 18 15:34:17 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'G:/document/semester4/ComputerOrganizationDesign/CPU54/multicycleCPU54/multicycleCPU54.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: Too many words specified in data file ../../../../test/DMEM.txt
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 881.879 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 18 15:38:12 2020...

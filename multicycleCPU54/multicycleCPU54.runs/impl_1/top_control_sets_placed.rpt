@@ -1,0 +1,156 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Aug 20 00:34:12 2020
+| Host         : kPC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   103 |
+| Unused register locations in slices containing registers |    76 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             312 |          159 |
+| No           | No                    | Yes                    |             137 |           59 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |            1131 |          390 |
+| Yes          | No                    | Yes                    |            1296 |          645 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------+---------------------------------------------------------------------------------------------+------------------+------------------+----------------+
+|              Clock Signal             |                                        Enable Signal                                        | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------------------------+---------------------------------------------------------------------------------------------+------------------+------------------+----------------+
+|  cpu/sccpu/CU/Q1_reg_11               |                                                                                             |                  |                1 |              1 |
+| ~CLK_CPU_BUFG                         |                                                                                             | reset_IBUF       |                2 |              2 |
+|  display/seg7_clk                     |                                                                                             | reset_IBUF       |                1 |              3 |
+|  CLK_CPU_BUFG                         | cpu/sccpu/CU/M_RF[3]_i_1_n_7                                                                |                  |                3 |              4 |
+|  CLK_CPU_BUFG                         | cpu/sccpu/CU/FSM_sequential_state[3]_i_1_n_7                                                | reset_IBUF       |                4 |              4 |
+|  CLK_CPU_BUFG                         | cpu/sccpu/CU/RF_waddr[4]_i_1_n_7                                                            |                  |                5 |              5 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/count_reg[0][0]                                                                | reset_IBUF       |                1 |              5 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/count_reg[4][0]                                                                | reset_IBUF       |                1 |              5 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/regfiles_reg[13][5][0]                                                         | reset_IBUF       |                2 |              5 |
+|  cpu/sccpu/IR/m27/EXT16_sign_reg_0[0] |                                                                                             |                  |                2 |              6 |
+|  cpu/sccpu/CU/Q1_reg_6[0]             |                                                                                             |                  |                2 |              8 |
+|  CLK_CPU_BUFG                         |                                                                                             | reset_IBUF       |               10 |             12 |
+|  cpu/sccpu/CU/Q1_reg_30[0]            |                                                                                             |                  |                5 |             16 |
+|  CLK_CPU_BUFG                         |                                                                                             |                  |               15 |             25 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m12/regfiles_reg[13][29][0]                                                    | reset_IBUF       |                8 |             27 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/IR_ENA                                                                         | reset_IBUF       |               20 |             31 |
+|  n_2_7197_BUFG                        |                                                                                             |                  |               16 |             32 |
+|  n_3_7200_BUFG                        |                                                                                             |                  |               21 |             32 |
+|  n_4_6771_BUFG                        |                                                                                             |                  |               14 |             32 |
+|  n_5_6744_BUFG                        |                                                                                             |                  |               24 |             32 |
+|  n_6_7199_BUFG                        |                                                                                             |                  |               19 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena0                                                                           | reset_IBUF       |               24 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/HI_ena                                                                         | reset_IBUF       |               25 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/LO_ena                                                                         | reset_IBUF       |               16 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/PC_ena                                                                         | reset_IBUF       |               13 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena011_out                                                                     | reset_IBUF       |               18 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena013_out                                                                     | reset_IBUF       |               20 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena015_out                                                                     | reset_IBUF       |               20 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena017_out                                                                     | reset_IBUF       |               14 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena019_out                                                                     | reset_IBUF       |               14 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena01_out                                                                      | reset_IBUF       |               16 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena021_out                                                                     | reset_IBUF       |               11 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena023_out                                                                     | reset_IBUF       |               13 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena025_out                                                                     | reset_IBUF       |               13 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena027_out                                                                     | reset_IBUF       |               13 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena029_out                                                                     | reset_IBUF       |               21 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena031_out                                                                     | reset_IBUF       |               18 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena033_out                                                                     | reset_IBUF       |               14 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena035_out                                                                     | reset_IBUF       |               13 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena037_out                                                                     | reset_IBUF       |               16 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena039_out                                                                     | reset_IBUF       |               18 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena03_out                                                                      | reset_IBUF       |               18 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena041_out                                                                     | reset_IBUF       |               15 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena043_out                                                                     | reset_IBUF       |               19 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena045_out                                                                     | reset_IBUF       |               19 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena047_out                                                                     | reset_IBUF       |               17 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena049_out                                                                     | reset_IBUF       |               15 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena051_out                                                                     | reset_IBUF       |               13 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena053_out                                                                     | reset_IBUF       |               16 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena055_out                                                                     | reset_IBUF       |               18 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena057_out                                                                     | reset_IBUF       |               16 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena059_out                                                                     | reset_IBUF       |               16 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena05_out                                                                      | reset_IBUF       |               20 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena07_out                                                                      | reset_IBUF       |               16 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/ena09_out                                                                      | reset_IBUF       |               14 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/E[0]                                                                           |                  |               10 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/exc_addr_reg[31][0]                                                            | reset_IBUF       |               12 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/reg_b_reg[31][0]                                                               |                  |               10 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/regfiles_reg[12][0][0]                                                         | reset_IBUF       |                8 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m11/regfiles_reg[10][31][0]                                                    |                  |               10 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m11/regfiles_reg[11][31][0]                                                    |                  |                9 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m11/regfiles_reg[28][31][0]                                                    |                  |                9 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m11/regfiles_reg[3][31][0]                                                     |                  |               14 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m11/regfiles_reg[2][31][0]                                                     |                  |               12 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m11/regfiles_reg[30][31][0]                                                    |                  |               11 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m11/regfiles_reg[4][31][0]                                                     |                  |               10 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m11/regfiles_reg[5][31][0]                                                     |                  |               13 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m11/regfiles_reg[9][31][0]                                                     |                  |               19 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m12/regfiles_reg[15][31][0]                                                    |                  |                9 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m12/regfiles_reg[22][31][0]                                                    |                  |                9 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m12/regfiles_reg[7][31][0]                                                     |                  |               18 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m13/E[0]                                                                       |                  |                6 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m13/regfiles_reg[16][31][0]                                                    |                  |                9 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m13/regfiles_reg[24][31][0]                                                    |                  |               13 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m13/regfiles_reg[8][31][0]                                                     |                  |                8 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m13/regfiles_reg[25][31][0]                                                    |                  |                9 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m13/regfiles_reg[26][31][0]                                                    |                  |                8 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m14/regfiles_reg[17][31][0]                                                    |                  |                6 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m14/regfiles_reg[18][31][0]                                                    |                  |                7 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m14/regfiles_reg[19][31][0]                                                    |                  |                7 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m14/regfiles_reg[20][31][0]                                                    |                  |                6 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m14/regfiles_reg[27][31][0]                                                    |                  |               13 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m14/regfiles_reg[21][31][0]                                                    |                  |               10 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m14/regfiles_reg[23][31][0]                                                    |                  |               17 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m14/regfiles_reg[31][31][0]                                                    |                  |               19 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m15/regfiles_reg[14][0]_0[0]                                                   | reset_IBUF       |               13 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m15/regfiles_reg[1][31][0]                                                     |                  |                8 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m15/regfiles_reg[29][31][0]                                                    |                  |                9 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/IR/m15/regfiles_reg[6][31][0]                                                     |                  |               11 |             32 |
+|  n_1_7198_BUFG                        |                                                                                             |                  |               12 |             32 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/CU/Z_ena                                                                          | reset_IBUF       |               14 |             35 |
+|  n_0_7282_BUFG                        |                                                                                             |                  |               28 |             64 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/DIV/divison_unit/reg_q[31]_i_1_n_7                                                |                  |               23 |             65 |
+| ~CLK_CPU_BUFG                         | cpu/sccpu/DIVU/reg_q[31]_i_1__0_n_7                                                         |                  |               30 |             65 |
+|  clk_in_IBUF_BUFG                     |                                                                                             | reset_IBUF       |               46 |            120 |
+|  CLK_CPU_BUFG                         | cpu/DMEM/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_768_1023_0_0_i_1_n_0  |                  |               32 |            128 |
+|  CLK_CPU_BUFG                         | cpu/DMEM/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_512_767_0_0_i_1_n_0   |                  |               32 |            128 |
+|  CLK_CPU_BUFG                         | cpu/DMEM/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_0_0_i_1_n_0   |                  |               32 |            128 |
+|  CLK_CPU_BUFG                         | cpu/DMEM/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_1792_2047_0_0_i_1_n_0 |                  |               32 |            128 |
+|  CLK_CPU_BUFG                         | cpu/DMEM/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_1536_1791_0_0_i_1_n_0 |                  |               32 |            128 |
+|  CLK_CPU_BUFG                         | cpu/DMEM/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_0_255_0_0_i_1_n_0     |                  |               32 |            128 |
+|  CLK_CPU_BUFG                         | cpu/DMEM/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_1024_1279_0_0_i_1_n_0 |                  |               32 |            128 |
+|  CLK_CPU_BUFG                         | cpu/DMEM/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_1280_1535_0_0_i_1_n_0 |                  |               32 |            128 |
++---------------------------------------+---------------------------------------------------------------------------------------------+------------------+------------------+----------------+
+
+

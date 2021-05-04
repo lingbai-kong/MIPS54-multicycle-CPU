@@ -1,0 +1,79 @@
+# do {test_compile.do}
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 18:28:32 on Dec 18,2020
+# vlog -64 -incr -work xil_defaultlib ../../../multicycleCPU54.srcs/sources_1/new/Asynchronous_D_FF.v ../../../multicycleCPU54.srcs/sources_1/new/ADD.v ../../../multicycleCPU54.srcs/sources_1/new/SRL.v ../../../multicycleCPU54.srcs/sources_1/new/SLLSLR.v ../../../multicycleCPU54.srcs/sources_1/new/SUBU.v ../../../multicycleCPU54.srcs/sources_1/new/LUI.v ../../../multicycleCPU54.srcs/sources_1/new/SRA.v ../../../multicycleCPU54.srcs/sources_1/new/NOR.v ../../../multicycleCPU54.srcs/sources_1/new/XOR.v ../../../multicycleCPU54.srcs/sources_1/new/complement.v ../../../multicycleCPU54.srcs/sources_1/new/AND.v ../../../multicycleCPU54.srcs/sources_1/new/pcreg.v ../../../multicycleCPU54.srcs/sources_1/new/SLTU.v ../../../multicycleCPU54.srcs/sources_1/new/SUB.v ../../../multicycleCPU54.srcs/sources_1/new/OR.v ../../../multicycleCPU54.srcs/sources_1/new/selector.v ../../../multicycleCPU54.srcs/sources_1/new/ADDU.v ../../../multicycleCPU54.srcs/sources_1/new/divu.v ../../../multicycleCPU54.srcs/sources_1/new/SLT.v ../../../multicycleCPU54.srcs/sources_1/new/multu.v ../../../multicycleCPU54.srcs/sources_1/new/alu.v ../../../multicycleCPU54.srcs/sources_1/new/div.v ../../../multicycleCPU54.srcs/sources_1/new/npc.v ../../../multicycleCPU54.srcs/sources_1/new/mux.v ../../../multicycleCPU54.srcs/sources_1/new/regfile.v ../../../multicycleCPU54.srcs/sources_1/new/mult.v ../../../multicycleCPU54.srcs/sources_1/new/clz.v ../../../multicycleCPU54.srcs/sources_1/new/save.v ../../../multicycleCPU54.srcs/sources_1/new/cu.v ../../../multicycleCPU54.srcs/sources_1/new/extend.v ../../../multicycleCPU54.srcs/sources_1/new/cp0.v ../../../multicycleCPU54.srcs/sources_1/new/z.v ../../../multicycleCPU54.srcs/sources_1/new/II.v ../../../multicycleCPU54.srcs/sources_1/new/cpmem.v ../../../multicycleCPU54.srcs/sources_1/new/decoder.v ../../../multicycleCPU54.srcs/sources_1/new/memory.v ../../../multicycleCPU54.srcs/sources_1/new/cpu.v ../../../multicycleCPU54.srcs/sources_1/new/sccomp_dataflow.v ../../../multicycleCPU54.srcs/sim_1/new/cpu_tb.v 
+# 
+# -- Compiling module Ansynchronous
+# -- Compiling module Ansynchronous1
+# -- Compiling module ADD
+# -- Compiling module SRL
+# -- Compiling module SLLSLR
+# -- Compiling module SUBU
+# -- Compiling module LUI
+# -- Compiling module SRA
+# -- Compiling module NOR
+# -- Compiling module XOR
+# -- Compiling module complement32
+# -- Compiling module complement64
+# -- Compiling module AND
+# -- Compiling module pcreg
+# -- Compiling module pcreg_i
+# -- Compiling module SLTU
+# -- Compiling module SUB
+# -- Compiling module OR
+# -- Compiling module alu_selector
+# -- Compiling module ADDU
+# -- Compiling module divu
+# -- Compiling module SLT
+# -- Compiling module multu
+# -- Compiling module alu
+# -- Compiling module div
+# -- Compiling module npc
+# -- Compiling module mux_pc
+# -- Compiling module mux_rf
+# -- Compiling module mux_alu
+# -- Compiling module mux_hi
+# -- Compiling module mux_lo
+# -- Compiling module mux2_32
+# -- Compiling module regfile
+# -- Compiling module mult
+# -- Compiling module clz
+# -- Compiling module save
+# -- Compiling module save_flag
+# -- Compiling module cu
+# -- Compiling module extend1
+# -- Compiling module extend5
+# -- Compiling module extend8
+# -- Compiling module extend16
+# -- Compiling module extend18
+# -- Compiling module cp0
+# -- Compiling module z
+# -- Compiling module ii
+# -- Compiling module cpmem
+# -- Compiling module decoder
+# -- Compiling module memory
+# -- Compiling module cpu
+# -- Compiling module sccomp_dataflow
+# -- Compiling module sccomp_dataflow_with_ipcore
+# -- Compiling module test
+# -- Compiling module test_with_ipcore
+# 
+# Top level modules:
+# 	test
+# 	test_with_ipcore
+# End time: 18:28:32 on Dec 18,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 18:28:33 on Dec 18,2020
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:28:33 on Dec 18,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
