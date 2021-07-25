@@ -1,5 +1,5 @@
 # MIPS54-multicycle-CPU
-TongJi University CS computer organization summer homework
+同济大学CS《计算机组成原理课程设计》暑期作业TongJi University CS computer organization assignment
 
 ## 概述
 
